@@ -4,4 +4,5 @@ def reverse_each_word(string)
   reversearr = string_array.collect do |word|
     word.reverse
   end
+  reversearr
 end
